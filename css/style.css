@@ -1,0 +1,163 @@
+/** MAIN **/
+* {	margin: 0 auto; font-family: "OpenSans", sans-serif;}
+body {
+	background-color: #2A2A2A;
+	font-size: 10pt;
+	height: 100%;
+	overflow: hidden;
+	}
+
+html {
+ height: 100%;
+}
+h1,h2,h3,h4,h5,h6 {	color: #6DBCDB; }
+p {	color: #CCC592; }
+a {	text-decoration: none; color: #CCC592; cursor: pointer;}
+a:hover { text-decoration: underline; }
+.container { width: 1170px; }
+a:hover input { cursor: pointer;}
+
+/** HEADER **/
+header {
+	font-size: 120%;
+	position: absolute;
+	z-index: 10;
+	background-color: #161616;
+	height: 80px;
+	min-width: 940px;
+	top: 0;
+	right: 0;
+	left: 0;
+	border-bottom: 3px solid #000;
+	box-shadow: 0 0 1px #000;
+}
+
+
+div.picture_logo {
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-top: 5px;
+}
+
+div#menu {
+	float: right;
+	margin-right: 100px;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-left: 60px;
+	margin-top: 32px;
+}
+
+div.picture_home {
+	width: 40px;
+	height: 40px;
+	margin-top : 22px;
+	float: left;
+}
+
+/** BODY **/
+
+section {
+	margin-top: 80px;
+}
+
+div.grosLogo {
+	text-align: center;
+	margin-top: 165px;
+}
+
+div.chooseLanguage {
+	margin-top: 60px;
+	width: 400px;
+	text-align: center;
+}
+
+	div.langue {
+		width: 200px;
+		height: 20px;
+		margin-top: 20px;
+	}
+
+		div.french {
+			background-color: #161616;
+			width: 80px;
+			height: 20px;
+			text-align: center;
+			float: left;
+			border-radius: 10px;
+		}
+
+		div.french p {
+			color: #CCC592;
+			padding-top: 2px;
+		}
+
+		div.english {
+			background-color: #161616;
+			width: 80px;
+			height: 20px;
+			text-align: center;
+			margin-left: 30px;
+			float: right;
+			border-radius: 10px;
+		}
+
+		div.english p {
+			color: #CCC592;
+			padding-top: 2px;
+		}
+
+div.ageLegal {
+	width: 500px;
+	margin-top: 50px;
+}
+
+	p.textLegal {
+		text-align: justify;
+		color: grey;
+	}
+
+	div.certifier {
+		width: 500px;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+		div.certifier p {
+			display: inline-block;
+		}
+
+		div.certifier input {
+			display: inline-block;
+			margin-right: 15px;
+			vertical-align: middle;
+		}
+
+div.confirmerLegal {
+	width: 80px;
+	margin-top: 80px;
+}
+
+	div.confirmerLegal input {
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #161616), color-stop(1, #161616) );
+		background:-moz-linear-gradient( center top, #807e80 5%, #000000 100% );
+		background-color:#807e80;
+		border-radius: 5px;
+		text-indent:0
+		display:inline-block;
+		color:#ccc592;
+		font-family:arial;
+		border: 5px solid #161616;
+		width: 80px;
+		height: 30px;
+		font-size:15px;
+		font-weight:bold;
+		font-style:normal;
+		text-decoration:none;
+		text-align:center;
+		text-shadow:1px 1px 0px #211e21;
+	}
