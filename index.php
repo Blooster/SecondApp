@@ -6,6 +6,7 @@
 	<script type="text/javascript" src="js/controle.js"></script>
 	<title>Champagne Charpentier Didier</title>
 </head>
+
 <body>
 	<section class="container">
 		<form name="form" action="accueil.php" onsubmit="return checkAgeLegal(this)">
